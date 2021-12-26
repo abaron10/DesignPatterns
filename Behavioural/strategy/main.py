@@ -7,6 +7,7 @@ from BlackAndWhiteFilter import  BlackAndWhiteFilter
 # una tarea.
 #La diferencia entre state  y strategy es que el state puede tener un solo estado interno , mientras
 #que el strategy puede interacturar con varios stados que se comunican con varias estrategias
+#Usa el principio de POLIMORFISMO
 
 if __name__ == '__main__':
     imgs = ImageStorage(JpegCompressor(),BlackAndWhiteFilter())    
