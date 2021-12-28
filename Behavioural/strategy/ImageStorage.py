@@ -1,9 +1,6 @@
 
 
 class ImageStorage():
-    __compressor = ""
-    __filter =""
-
     def __init__(self,compressor,filter):
         self.__compressor = compressor
         self.__filter = filter
